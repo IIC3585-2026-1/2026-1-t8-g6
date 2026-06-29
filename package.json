@@ -1,0 +1,25 @@
+{
+  "name": "2026-1-t8-g6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIC3585-2026-1/2026-1-t8-g6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IIC3585-2026-1/2026-1-t8-g6/issues"
+  },
+  "homepage": "https://github.com/IIC3585-2026-1/2026-1-t8-g6#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
