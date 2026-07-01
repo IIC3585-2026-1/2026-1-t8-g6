@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="toolbar">
+      <div class="tool-group">
+        <label for="colorPicker" class="tool-label">Color:</label>
+        <input type="color" id="colorPicker" value="#1e293b" title="Elegir color">
+      </div>
+      <button id="clearBtn" class="btn-clear">Limpiar Pizarra</button>
+    </div>
+
     <canvas id="board"></canvas>
+    
     <script src="script.js"></script>
   </body>
 </html>
