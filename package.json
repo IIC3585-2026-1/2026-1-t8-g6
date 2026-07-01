@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/IIC3585-2026-1/2026-1-t8-g6#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "ws": "^8.21.0"
   }
 }

@@ -10,7 +10,10 @@ let isDrawing = false;
 let currentX = 0;
 let currentY = 0;
 
-const ws = new WebSocket("ws://localhost:8080");
+const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+const wsUrl = `${protocol}//${window.location.host}`;
+
+const ws = new WebSocket(wsUrl);
 
 ws.onopen = function () {
   console.log("Conectado al servidor de WebSockets");
